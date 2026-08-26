@@ -35,7 +35,18 @@ export function SoundtrackButton() {
 
   return (
     <div className="fixed top-[max(0.75rem,env(safe-area-inset-top))] right-3 z-40 sm:right-5">
-     
+      <button
+        type="button"
+        onClick={() => void toggle()}
+        className={cn(
+          'flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-black/40 text-white/80 backdrop-blur-md transition hover:border-white/30 hover:text-white',
+          playing && 'border-rose-400/40 text-rose-200',
+        )}
+        aria-label={playing ? 'Pausar trilha' : 'Tocar trilha'}
+        title={missing ? 'Trilha não encontrada' : playing ? 'Pausar' : 'Tocar'}
+      >
+        {playing ? <Music size={16} /> : <VolumeX size={16} />}
+      </button>
     </div>
   )
 }

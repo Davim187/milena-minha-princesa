@@ -15,6 +15,10 @@ import { siteConfig } from './config'
 import { enterStage, finalizarSessaoAtual, registerDevMode, registerEasterEgg, startSession } from './services/interactionService'
 import type { Stage, Tone } from './types'
 
+
+
+
+
 function toneFor(stage: Stage): Tone {
   if (stage === 'landing' || stage === 'terminal' || stage === 'evidence') return 'terminal'
   if (stage === 'finale') return 'soft'

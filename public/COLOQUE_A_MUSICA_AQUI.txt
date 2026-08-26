@@ -1,0 +1,5 @@
+Coloque aqui um arquivo chamado soundtrack.mp3 para a trilha sonora opcional.
+
+O botão "Ativar trilha sonora" no site tenta tocar:
+
+  /soundtrack.mp3

@@ -1,0 +1,213 @@
+{
+  "projeto": "PROJETO: ELA",
+  "caso": "CASE-07X",
+  "destinataria": "Milena",
+  "operador": "Davi",
+  "landing": {
+    "alert": "Detectamos uma pessoa suspeita.",
+    "linha1": "Ela apareceu na vida de um programador recentemente.",
+    "linha2": "Desde então, alguns comportamentos estranhos foram registrados.",
+    "botao": "INICIAR INVESTIGAÇÃO"
+  },
+  "terminal": {
+    "logs": [
+      "Inicializando investigação...",
+      "Procurando evidências...",
+      "Analisando conversas...",
+      "Analisando encontros...",
+      "Analisando comportamento do programador..."
+    ],
+    "inesperado": "Resultado inesperado.",
+    "botao": "Abrir evidências"
+  },
+  "evidencias": [
+    {
+      "id": "01",
+      "titulo": "Evidência #01",
+      "texto": "Ele começou a verificar o celular com mais frequência."
+    },
+    {
+      "id": "02",
+      "titulo": "Evidência #02",
+      "texto": "Ele aparentemente gosta de conversar com uma determinada pessoa."
+    },
+    {
+      "id": "03",
+      "titulo": "Evidência #03",
+      "texto": "Ele já está planejando mentalmente o próximo encontro."
+    },
+    {
+      "id": "04",
+      "titulo": "Evidência #04",
+      "texto": "Foi identificado um evento extremamente suspeito...",
+      "revelacao": "PRIMEIRO BEIJO"
+    }
+  ],
+  "investigacaoComplicada": "Investigação ficando complicada...",
+  "problema": {
+    "titulo": "Encontramos um erro no sistema.",
+    "codigo": "ERROR 418",
+    "nome": "I'M FALLING FOR YOU",
+    "explicacao": "Foi identificado um comportamento que não estava previsto no código original.",
+    "metricas": [
+      {
+        "label": "interesse",
+        "valor": 86
+      },
+      {
+        "label": "curiosidade",
+        "valor": 94
+      },
+      {
+        "label": "vontade de te ver novamente",
+        "valor": 100
+      },
+      {
+        "label": "capacidade de agir normalmente perto de você",
+        "valor": 32
+      }
+    ],
+    "botaoCorrigir": "Tentar corrigir problema",
+    "falha": "Falha.",
+    "permanente": "Problema parece ser permanente.",
+    "botaoSeguir": "Aceitar e seguir"
+  },
+  "entrevista": {
+    "titulo": "Precisamos fazer algumas perguntas à suspeita.",
+    "pergunta1": {
+      "pergunta": "Você pretende continuar falando com esse programador?",
+      "opcoes": [
+        "Não",
+        "Talvez",
+        "Sim 👀"
+      ],
+      "respostas": {
+        "nao": "Resposta suspeita.",
+        "talvez": "Resposta ambígua. Vamos considerar isso um sim... disfarçado.",
+        "sim": "Resposta aceita."
+      }
+    },
+    "pergunta2": {
+      "pergunta": "Você toparia um segundo encontro?",
+      "opcoes": [
+        "NÃO",
+        "CLARO"
+      ],
+      "respostas": {
+        "nao": "Essa resposta será encaminhada para análise manual.",
+        "naoDepois": "Brincadeira 😂",
+        "claro": null
+      }
+    },
+    "pergunta3": {
+      "pergunta": "Qual dessas opções parece mais perigosa?",
+      "respostas": [
+        {
+          "opcao": "Continuar conversando",
+          "emoji": "❤️",
+          "reacao": "Perigo nível: conversa que não acaba. O sistema aprova."
+        },
+        {
+          "opcao": "Sair novamente",
+          "emoji": "😏",
+          "reacao": "Alto risco de perder a noção do horário. Registrado."
+        },
+        {
+          "opcao": "Repetir o beijo",
+          "emoji": "🔥",
+          "reacao": "Isso ia direto pra pasta confidencial."
+        },
+        {
+          "opcao": "Todas as anteriores",
+          "emoji": "😂",
+          "reacao": "Diagnóstico: você entendeu o sistema. Perigoso."
+        }
+      ]
+    }
+  },
+  "algoritmo": {
+    "titulo": "Executando algoritmo...",
+    "variaveis": [
+      "conversa++",
+      "risadas++",
+      "curiosidade++",
+      "saudade++",
+      "química++"
+    ],
+    "calculando": "Calculando...",
+    "encontrado": "Resultado encontrado.",
+    "score": "100%",
+    "legenda": "Vocês têm uma combinação perigosamente boa.",
+    "botao": "Ver banco de dados"
+  },
+  "bancoDeDados": {
+    "titulo": "Informações coletadas até agora",
+    "campos": {
+      "nome": "Milena",
+      "status": "Conhecendo",
+      "encontro": 1,
+      "beijos": 1,
+      "conversas": "muitas",
+      "memorias": "começando",
+      "proximoEncontro": "NULL"
+    },
+    "aviso": "Campo 'Próximo encontro' está vazio.",
+    "botaoCorrigir": "CORRIGIR BANCO DE DADOS",
+    "resultado": "Para corrigir esse problema, é necessário um novo encontro."
+  },
+  "final": {
+    "linhas": [
+      "Tá...",
+      "Agora falando sério.",
+      "Eu poderia ter simplesmente mandado uma mensagem.",
+      "Mas achei mais divertido transformar algumas linhas de código em uma desculpa para te fazer sorrir.",
+      "Faz pouco tempo que a gente se conhece...",
+      "...mas eu gostei muito de ter te conhecido.",
+      "E estou gostando de descobrir, aos poucos, quem você é.",
+      "Então não quero acelerar nada.",
+      "Só quero continuar vivendo esses momentos com você.",
+      "Agora falta só uma coisa..."
+    ],
+    "destaque": "Quando será a versão 2.0 do nosso encontro?",
+    "botao": "INICIAR PRÓXIMO CAPÍTULO",
+    "desbloqueado": "Capítulo 2 desbloqueado.",
+    "data": "Data: aguardando você escolher"
+  },
+  "easterEggs": {
+    "tituloClicadoVariasVezes": "Você realmente estava procurando isso?",
+    "tituloHint": "Ok, agora pode voltar pra investigação.",
+    "rodape": "Feito por um programador que aparentemente não sabe demonstrar interesse de maneira normal.",
+    "rodapeResposta": "Mas está tentando."
+  },
+  "modoDesenvolvedor": [
+    "// TODO: descobrir mais sobre ela",
+    "// TODO: marcar próximo encontro",
+    "// TODO: não se apegar rápido demais",
+    "// BUG: já pode ser tarde demais",
+    "// STATUS: feliz por ter conhecido ela"
+  ],
+  "respostasDela": {
+    "observacao": "Preenchido automaticamente quando ela responde. No site, as respostas aparecem no banco de dados e podem ser baixadas.",
+    "pergunta1": {
+      "pergunta": "Você pretende continuar falando com esse programador?",
+      "resposta": null,
+      "cliquesNao": 0
+    },
+    "pergunta2": {
+      "pergunta": "Você toparia um segundo encontro?",
+      "resposta": null,
+      "cliquesNao": 0
+    },
+    "pergunta3": {
+      "pergunta": "Qual dessas opções parece mais perigosa?",
+      "resposta": null,
+      "opcoesClicadas": [],
+      "quantasOpcoes": 0,
+      "quantosCliques": 0
+    },
+    "totais": {
+      "cliquesNao": 0,
+      "opcoesClicadas": 0
+    }
+  }
+}
